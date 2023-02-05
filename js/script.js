@@ -1,5 +1,5 @@
 /*eslint-env browser*/
-window.addEventListener("load",addEmployeeDetails = ()=>{
+window.addEventListener("load",()=>{
     "use strict";   
     window.document.getElementById("empForm").addEventListener("submit", (e)=> {
         e.preventDefault();
